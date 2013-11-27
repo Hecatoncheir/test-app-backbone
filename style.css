@@ -1,0 +1,32 @@
+a {
+	text-transform: none;
+}
+
+.js-tabs {
+	visibility: hidden;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+
+.js-car-List {
+	clear: both;
+}
+
+.car-item {
+	float: left;
+	display: block;
+	width: 130px;
+	margin-right: 20px;
+}
+
+	.car-item span {
+		font-weight: bold;
+	}
+
+	.kpp {
+		color: maroon;
+	}

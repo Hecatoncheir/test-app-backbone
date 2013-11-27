@@ -2,14 +2,24 @@
 <html>
 <header>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </header>
 <body>
+<a href="#showList" class="js-show-list">Показать перечень машин</a>
 
-<div class="js-carList"></div>
+<ul class="js-tabs">
+	<li>Все авто (<span class="counter-all"></span>) </li>
+	<li>Авто с МКПП (<span class="counter-kpp-mkpp"></span>)</li>
+	<li>Авто с АКПП (<span class="counter-kpp-akpp"></span>)</li>
+</ul>
+<div class="js-car-List"></div>
 
 
-<script type="text/template" id="carsList">
-	Название: <%= name %>, Тип КПП: <%= kpp %>, Цвет: <%= color %>, Цена: <%= price %>
+<script type="text/template" id="cars-List">
+		<br/>Название:<span><%= name %></span>,
+		<br/>Тип КПП:<span class="kpp"><%= kpp %></span>,
+		<br/>Цвет:<span class="color"><%= color %></span>,
+		<br/>Цена:<span><%= price %></span>
 </script>
 
 <script src="javascript/underscore.js"></script>
