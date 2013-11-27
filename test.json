@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "name": "Audi A6",
+            "kpp": "mkpp",
+            "color": "red",
+            "price": 100000
+        },
+        {
+            "name": "BMW X5",
+            "kpp": "mkpp",
+            "color": "black",
+            "price": 200000
+        },
+        {
+            "name": "Chery Bonus",
+            "kpp": "mkpp",
+            "color": "red",
+            "price": 300000
+        },
+        {
+            "name": "Chevrolet Lacetti",
+            "kpp": "mkpp",
+            "color": "white",
+            "price": 400000
+        },
+        {
+            "name": "Chrysler 300C",
+            "kpp": "akpp",
+            "color": "white",
+            "price": 500000
+        },
+        {
+            "name": "Citroen C5",
+            "kpp": "akpp",
+            "color": "red",
+            "price": 600000
+        },
+        {
+            "name": "Daewoo Matiz",
+            "kpp": "akpp",
+            "color": "red",
+            "price": 700000
+        }
+    ]
+}
